@@ -1,4 +1,4 @@
-package main
+package Multiplication_Table
 
 func MultiplicationTable(size int) [][]int {
 	matrix := make([][]int, size)
@@ -14,4 +14,3 @@ func MultiplicationTable(size int) [][]int {
 	}
 	return matrix
 }
- 

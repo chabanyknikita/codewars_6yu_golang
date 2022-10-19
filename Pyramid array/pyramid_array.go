@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func Pyramid(n int) [][]int {
 	if n == 0 {
 		return [][]int{}
@@ -23,8 +21,4 @@ func Pyramid(n int) [][]int {
 	}
 
 	return r
-}
-func main() {
-	fmt.Println(Pyramid(2))
-
 }

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 	"strconv"
 	"strings"
@@ -22,7 +21,4 @@ func DigPow(n, p int) int {
 	} else {
 		return -1
 	}
-}
-func main() {
-	fmt.Println(DigPow(46288, 3))
 }
