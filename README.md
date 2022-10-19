@@ -1,0 +1,1 @@
+# codewars_6yu_golang
