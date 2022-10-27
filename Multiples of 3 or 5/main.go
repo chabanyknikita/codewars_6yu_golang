@@ -15,7 +15,3 @@ func Multiple3And5(number int) int {
 	}
 	return summary
 }
-
-func main() {
-	fmt.Println(Multiple3And5(10))
-}
